@@ -1,2 +1,57 @@
-//font-family: "Poppins", sans-serif;
-//font-family: "Inter", sans-serif;
+:root {
+  --branding-color: linear-gradient(to right, #9796f0, #fbc7d4);
+  --accent-color: #f65282;
+  --heading-font-family: "Poppins", sans-serif;
+  --default-font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--heading-font-family);
+}
+
+h1 {
+  font-size: 96px;
+}
+
+p {
+  font-family: var(--default-font-family);
+}
+
+.hero {
+  background: var(--branding-color);
+  text-align: center;
+  max-width: 1200px;
+  max-height: 700px;
+  margin: 0 auto;
+  padding: 130px;
+  border-radius: 44px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero h2 {
+  font-size: 36px;
+  font-family: var(--default-font-family);
+  line-height: 2;
+}
+
+.hero a {
+  font-size: 20px;
+  margin: 16px;
+  text-decoration: none;
+}
+
+.main-button {
+  border-radius: 32px;
+  padding: 8px 36px;
+}
+
+.secondary-button {
+  color: black;
+}
