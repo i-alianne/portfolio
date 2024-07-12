@@ -7,12 +7,19 @@
 
 h1,
 h2,
-h3 {
+h3,
+h5 {
   font-family: var(--heading-font-family);
 }
 
 h1 {
   font-size: 96px;
+}
+
+h2 {
+  font-size: 66px;
+  border-left: 10px solid #9796f0;
+  padding-left: 20px;
 }
 
 p {
@@ -23,7 +30,7 @@ p {
   background: var(--branding-color);
   text-align: center;
   max-width: 1200px;
-  max-height: 700px;
+  max-height: 600px;
   margin: 0 auto;
   padding: 130px;
   border-radius: 44px;
@@ -36,9 +43,11 @@ p {
 }
 
 .hero h2 {
-  font-size: 36px;
+  font-size: 28px;
   font-family: var(--default-font-family);
   line-height: 2;
+  border: none;
+  padding: 0;
 }
 
 .hero a {
@@ -54,4 +63,31 @@ p {
 
 .secondary-button {
   color: black;
+}
+
+.secondary-button:hover {
+  color: var(--accent-color);
+}
+
+.skills-section {
+  max-width: 1200px;
+  margin: 60px auto;
+}
+
+.skill-icon {
+  width: 60px;
+  height: auto;
+}
+
+.featured-projects-section {
+  max-width: 1200px;
+  margin: 80px auto;
+}
+
+.featured-projects-section p {
+  font-size: 20px;
+}
+
+.card-title {
+  font-size: 32px;
 }
