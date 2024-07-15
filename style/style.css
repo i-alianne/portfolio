@@ -19,6 +19,7 @@ h1 {
 h2 {
   font-size: 66px;
   border-left: 10px solid #9796f0;
+  padding-left: 10px;
 }
 
 p {
@@ -50,20 +51,18 @@ p {
   padding: 0;
 }
 
-.hero a {
-  font-size: 20px;
-  margin: 16px;
-  text-decoration: none;
-}
-
 .main-button {
   border-radius: 32px;
   padding: 8px 36px;
+  text-decoration: none;
   transition: all 200ms ease-in-out;
+  font-size: 20px;
 }
 
 .secondary-button {
   color: black;
+  font-size: 20px;
+  text-decoration: none;
   transition: all 200ms ease-in-out;
 }
 
@@ -76,7 +75,7 @@ p {
   color: var(--accent-color);
 }
 
-.skills-section {
+.homepage-main-content {
   width: 80%;
   max-width: 1200px;
   margin: 60px auto;
@@ -85,12 +84,6 @@ p {
 .skill-icon {
   max-width: 60px;
   height: auto;
-}
-
-.featured-projects-section {
-  width: 80%;
-  max-width: 1200px;
-  margin: 80px auto;
 }
 
 .featured-projects-section p {
@@ -120,8 +113,7 @@ p {
     font-size: 28px;
   }
 
-  .skills-section,
-  .featured-projects-section {
+  .homepage-main-content {
     width: 90%;
     max-width: 700px;
   }
@@ -154,8 +146,7 @@ p {
     font-size: 28px;
   }
 
-  .skills-section,
-  .featured-projects-section {
+  .homepage-main-content {
     width: 95%;
     max-width: 400px;
   }
