@@ -23,6 +23,7 @@ h2 {
 }
 
 p {
+  font-size: 20px;
   font-family: var(--default-font-family);
 }
 
@@ -35,9 +36,9 @@ p {
 .hero {
   background: var(--branding-color);
   text-align: center;
-  width: 80%;
-  max-width: 1200px;
-  max-height: 600px;
+  width: 90%;
+  max-width: 1300px;
+  max-height: 700px;
   margin: 0 auto;
   padding: 120px;
   border-radius: 44px;
@@ -81,12 +82,14 @@ p {
   color: var(--accent-color);
 }
 
-.skills-section,
-.featured-projects-section,
-.about-content {
-  width: 80%;
-  max-width: 1200px;
+.content-container {
+  width: 90%;
+  max-width: 1300px;
   margin: 60px auto;
+}
+
+.skills-section p {
+  font-size: 16px;
 }
 
 .skill-icon {
@@ -94,26 +97,22 @@ p {
   height: auto;
 }
 
-.featured-projects-section p {
-  font-size: 20px;
-}
-
 .card-title {
   font-size: 32px;
 }
 
-.about-content h1 {
+.content-container h1 {
   font-size: 64px;
   font-weight: bold;
   color: var(--branding-color);
 }
 
-.about-content h2 {
-  font-size: 24px;
+.content-container h2 {
+  font-size: 80px;
 }
 
-.about-content p {
-  font-size: 20px;
+.about-content h2 {
+  font-size: 24px;
   line-height: 1.5;
 }
 
@@ -143,9 +142,7 @@ p {
     font-size: 28px;
   }
 
-  .skills-section,
-  .featured-projects-section,
-  .about-content {
+  .content-container {
     width: 90%;
     max-width: 700px;
   }
@@ -178,9 +175,7 @@ p {
     font-size: 28px;
   }
 
-  .skills-section,
-  .featured-projects-section,
-  .about-content {
+  .content-container {
     width: 95%;
     max-width: 400px;
   }
