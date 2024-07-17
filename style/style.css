@@ -33,13 +33,44 @@ p {
   -webkit-text-fill-color: transparent;
 }
 
+nav {
+  margin-bottom: 10px 0 60px;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.content-container {
+  width: 80%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.content-container h1 {
+  font-size: 64px;
+  font-weight: bold;
+  color: var(--branding-color);
+}
+.navbar a {
+  font-size: 20px;
+  font-family: var(--heading-font-family);
+  color: black;
+}
+
+.active {
+  color: var(--accent-color) !important;
+}
+
+.logo {
+  width: 44px;
+  height: 44px;
+}
+
 .hero {
   background: var(--branding-color);
   text-align: center;
-  width: 75%;
-  max-width: 1300px;
   max-height: 700px;
-  margin: 0 auto;
   padding: 120px;
   border-radius: 44px;
 }
@@ -82,12 +113,6 @@ p {
   color: var(--accent-color);
 }
 
-.content-container {
-  width: 75%;
-  max-width: 1300px;
-  margin: 60px auto;
-}
-
 .skills-section {
   margin: 80px 0;
 }
@@ -105,17 +130,6 @@ p {
   font-size: 32px;
 }
 
-.content-container h1 {
-  font-size: 64px;
-  font-weight: bold;
-  color: var(--branding-color);
-}
-
-.about-content h2 {
-  font-size: 24px;
-  line-height: 1.5;
-}
-
 .profile-photo {
   max-width: 100%;
   height: auto;
@@ -123,8 +137,9 @@ p {
   vertical-align: middle;
 }
 
-.work-content {
-  margin: 100px 0;
+.about-content h2 {
+  font-size: 24px;
+  line-height: 1.5;
 }
 
 .project-img {
@@ -132,9 +147,12 @@ p {
 }
 
 @media (max-width: 768px) {
-  .hero {
+  .content-container {
     width: 90%;
     max-width: 700px;
+  }
+
+  .hero {
     padding: 60px;
   }
 
@@ -149,15 +167,10 @@ p {
   h5 {
     font-size: 28px;
   }
-
-  .content-container {
-    width: 90%;
-    max-width: 700px;
-  }
 }
 
 @media (max-width: 480px) {
-  .hero {
+  .content-container {
     width: 95%;
     max-width: 400px;
   }
@@ -181,11 +194,6 @@ p {
 
   h5 {
     font-size: 28px;
-  }
-
-  .content-container {
-    width: 95%;
-    max-width: 400px;
   }
 
   .icon-container div {
