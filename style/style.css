@@ -1,6 +1,7 @@
 :root {
   --branding-color: linear-gradient(to right, #9796f0, #fbc7d4);
   --accent-color: #f65282;
+  --secondary-color: #fbc7d4;
   --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Inter", sans-serif;
 }
@@ -144,6 +145,64 @@ nav {
 
 .project-img {
   width: 600px;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  max-width: 90%;
+  margin: 80px auto;
+  padding: 30px 60px;
+  border-radius: 10px;
+}
+
+footer h3 {
+  font-size: 40px;
+}
+
+footer p {
+  font-size: 18px;
+}
+
+footer .email-link a {
+  font-family: var(--heading-font-family);
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+footer .email-link a:hover {
+  color: var(--accent-color);
+}
+
+footer .social-links a {
+  color: black;
+  margin: 0 20px;
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 50%;
+  background: var(--secondary-color);
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--accent-color);
+}
+
+.signature {
+  background: black;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin: 0;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.signature p {
+  margin: 0;
+  opacity: 0.7;
+  font-size: 16px;
 }
 
 @media (max-width: 768px) {
