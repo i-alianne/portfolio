@@ -205,6 +205,10 @@ footer .social-links a:hover {
   font-size: 16px;
 }
 
+.contact-message {
+  font-size: 28px;
+}
+
 @media (max-width: 768px) {
   .content-container {
     width: 90%;
