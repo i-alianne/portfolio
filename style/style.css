@@ -44,7 +44,7 @@ nav {
 
 .content-container {
   width: 80%;
-  max-width: 1300px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -66,6 +66,11 @@ nav {
 .logo {
   width: 44px;
   height: 44px;
+  transition: all 400ms ease-in-out;
+}
+
+.logo:hover {
+  transform: rotate(360deg);
 }
 
 .hero {
@@ -167,6 +172,7 @@ footer .email-link a {
   font-family: var(--heading-font-family);
   font-size: 24px;
   color: black;
+  opacity: 0.7;
   text-decoration: none;
   transition: all 150ms ease-in-out;
 }
